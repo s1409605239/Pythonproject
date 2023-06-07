@@ -21,4 +21,7 @@ from webapp import views
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path('index', views.index),
+    path('login', views.login),
+    path('newss', views.news),
+    path('userinfo', views.userinfo),
 ]
